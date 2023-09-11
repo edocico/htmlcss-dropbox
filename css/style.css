@@ -125,5 +125,18 @@ p > a {
 h2 {
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.radio-buttons {
+    padding-bottom: 40px;
+}
+
+.businessplan-container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.col-4 > div {
+    border: 1px solid black;
 }
