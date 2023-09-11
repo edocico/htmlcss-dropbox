@@ -9,6 +9,8 @@ img {
     width: 100%;
 }
 
+/* header */
+
 ul {
     list-style: none;
 }
@@ -47,4 +49,23 @@ li > a {
 
 .start-anchor {
     color: white;
+}
+
+/* main */
+
+/*hero*/
+
+.hero {
+    background-color: #B4D0E7;
+    padding-top: 70px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 900;
 }
