@@ -110,4 +110,20 @@ p > a {
 
 .start-try {
     background-color: #0061FF;
+    max-width: 200px;
+}
+
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.business-plan {
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
