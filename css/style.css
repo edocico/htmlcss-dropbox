@@ -69,3 +69,45 @@ h1 {
     font-size: 75px;
     font-weight: 900;
 }
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+
+.main-title {
+    margin-bottom: 50px;
+}
+
+.hero-paragraph {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.fa-solid {
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.grow > p {
+    margin-bottom: 40px;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+p > a {
+    color: white;
+}
+
+.start-try {
+    background-color: #0061FF;
+}
