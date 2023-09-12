@@ -7,6 +7,7 @@
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 /* header */
@@ -224,7 +225,7 @@ h3 {
     color: white;
 }
 
-.col-12 {
+.business-plan .col-12 {
     width: 100%;
     padding: 0 25px;
     margin-top: 30px;
@@ -261,6 +262,35 @@ h3 {
 }
 
 /* section find partner */
+
+.find-partner {
+    padding-top: 170px;
+}
+
+.find-partner .row {
+    display: flex;
+}
+
+.find-partner .col-8 {
+    padding-right: 50px;
+}
+
+.find-partner .col-4 {
+    padding-top: 60px;
+}
+
+.find-partner .col-4 > * {
+    margin-bottom: 30px;
+}
+
+.find-partner div > a {
+    border: 1px solid black;
+    color: black;
+    line-height: 2;
+    padding: 10px 15px;
+}
+
+
 
 
 
