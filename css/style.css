@@ -11,6 +11,10 @@ img {
 
 /* header */
 
+.page-header {
+    background-color: white;
+}
+
 ul {
     list-style: none;
 }
@@ -23,7 +27,7 @@ a {
     max-width: 100%;
 }
 
-.row {
+.page-header .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,14 +71,19 @@ li > a {
     padding-top: 70px;
 }
 
+.hero .row {
+    display: flex;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-h1 {
+.title-display {
     font-size: 75px;
-    font-weight: 900;
+    font-weight: 800;
+    line-height: 1.2;
 }
 
 .col-4 {
@@ -97,6 +106,7 @@ h1 {
 
 .grow {
     flex-grow: 1;
+    
 }
 
 .fa-solid {
