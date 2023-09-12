@@ -329,6 +329,53 @@ h3 {
     text-decoration: underline;
 }
 
+/* partners section */
+
+.partners {
+    padding-top: 120px;
+}
+
+.partners .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    flex-basis: calc(100% / 2);
+}
+
+/* lightblue middle */
+
+.lightblue-middle {
+    background-color: #B4D0E7;
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+.lightblue-middle .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lightblue-middle h2 {
+    color: #610849;
+}
+
+.lightblue-middle .col-6 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lightblue-middle a {
+    color: black;
+    background-color: white;
+    line-height: 2;
+    padding: 10px 35px;
+    max-height: 50px;
+}
+
+
+
 
 
 
