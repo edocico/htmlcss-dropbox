@@ -109,7 +109,7 @@ li > a {
     
 }
 
-.fa-solid {
+.hero-paragraph i {
     font-size: 45px;
     padding-bottom: 20px;
 }
@@ -121,7 +121,7 @@ li > a {
     font-size: 17px;
 }
 
-p > a {
+.grow > p > a {
     color: white;
 }
 
@@ -130,6 +130,8 @@ p > a {
     max-width: 200px;
 }
 
+/* section business plan */
+
 .container-small {
     max-width: 1000px;
     margin: 0 auto;
@@ -137,6 +139,10 @@ p > a {
 
 .business-plan {
     padding-top: 100px;
+}
+
+.business-plan-title > .container-small {
+    padding-left: 25px;
 }
 
 h2 {
@@ -149,11 +155,115 @@ h2 {
     padding-bottom: 40px;
 }
 
-.businessplan-container {
+.business-plan .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.business-plan .card-header,.card-body {
+    border: 1px solid black;
+}
+
+.business-plan .col-4 {
+    padding: 0 25px;
+}
+
+.business-plan .container-small {
+    max-width: 1050px;
+}
+
+.business-plan .card-header {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.business-plan .card-header i {
+    font-size: 16px;
+}
+
+.business-plan .card-body i {
+    font-size: 14px;
+}
+
+.col-4 > .card-body > div {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.card-body {
+    padding-top: 30px;
+}
+
+.card-body > div > * {
+    padding-bottom: 15px;
+}
+
+.card-body > div > ul > li {
+    padding-bottom: 10px;
+}
+
+.col-4 > .card-body {
+    min-height: 910px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.fa-check {
+    color: #0061FF;
+}
+
+.button {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #0061FF;
+    color: white;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 25px;
+    margin-top: 30px;
+}
+
+.enterprise {
+    display: flex;
+    justify-content: space-between;
     max-width: 90%;
     margin: 0 auto;
 }
 
-.col-4 > div {
-    border: 1px solid black;
+.enterprise-text {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
+
+.enterprise a {
+    background-color: #0061FF;
+    color: white;
+    display: block;
+    line-height: 2;
+    font-size: 14px;
+    padding: 8px 15px;
+}
+
+.enterprise-title > * {
+    margin-bottom: 15px;
+}
+
+.enterprise-title > p {
+    font-weight: 700;
+}
+
+/* section find partner */
+
+
+
+
+
+
