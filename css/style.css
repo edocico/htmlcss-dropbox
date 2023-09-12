@@ -6,7 +6,7 @@
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 /* header */
@@ -26,16 +26,18 @@ a {
 .row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-col {
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
 }
 
-ul > li {
-    margin: 0 20px;
+.logo {
+    display: block;
 }
 
 li > a {
@@ -43,12 +45,17 @@ li > a {
     font-weight: 300;
 }
 
-.start {
-    background-color: #0061FF;
+.navmenù-item > * {
+    display: block;
+    line-height: 2em;
+    padding: 0 20px;
 }
+
+
 
 .start-anchor {
     color: white;
+    background-color: #0061FF;
 }
 
 /* main */
