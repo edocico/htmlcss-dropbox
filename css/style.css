@@ -128,7 +128,14 @@ li > a {
 
 .start-try {
     background-color: #0061FF;
-    max-width: 200px;
+    color: white;
+    margin-bottom: 40px;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 17px;
+    display: block;
+    padding: 8px 8px;
+    max-width: 215px;
 }
 
 /* section business plan */
