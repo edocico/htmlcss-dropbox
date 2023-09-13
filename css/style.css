@@ -61,6 +61,7 @@ li > a {
 .start-anchor {
     color: white;
     background-color: #0061FF;
+    margin-right: 10px;
 }
 
 /* main */
@@ -163,6 +164,10 @@ h2 {
     padding-bottom: 40px;
 }
 
+.radio-buttons span {
+    margin-right: 30px;
+}
+
 .business-plan .row {
     display: flex;
     flex-wrap: wrap;
@@ -209,9 +214,11 @@ h2 {
     padding-bottom: 15px;
 }
 
-.card-body > div > ul > li {
+.card-body li {
     padding-bottom: 10px;
-    display: flex
+    display: flex;
+    font-weight: 300;
+    gap: 8px;    
 }
 
 .plan-cta::after {
@@ -223,11 +230,15 @@ h2 {
 }
 
 .col-4 > .card-body {
-    min-height: 910px;
+    min-height: 992px;
 }
 
 h3 {
     font-size: 24px;
+}
+
+.period {
+    font-weight: 300;
 }
 
 .fa-check {
@@ -236,10 +247,15 @@ h3 {
 
 .button {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
     background-color: #0061FF;
     color: white;
+    padding-top: 10px;
+}
+
+.buy-now {
+    font-weight: 300;
 }
 
 .business-plan .col-12 {
@@ -259,6 +275,7 @@ h3 {
     max-width: 90%;
     margin: 0 auto;
     padding-bottom: 30px;
+    font-weight: 300;
 }
 
 .enterprise a {
@@ -493,11 +510,12 @@ h3 {
 .page-footer {
     background-color: black;
     padding-top: 100px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .page-footer .row {
     display: flex;
+    justify-content: space-between;
 }
 
 .page-footer .col {
@@ -520,6 +538,10 @@ h4 {
     padding: 0 30px;
     margin-top: 60px;
     
+}
+
+.language i {
+    margin-right: 5px;
 }
 
 .language::before {
