@@ -181,6 +181,7 @@ h2 {
 
 .business-plan .card-header i {
     font-size: 16px;
+    margin-right: 10px;
 }
 
 .business-plan .card-body i {
@@ -203,6 +204,15 @@ h2 {
 
 .card-body > div > ul > li {
     padding-bottom: 10px;
+    display: flex
+}
+
+.plan-cta::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 1px;
+    background-color: #DADADC;
 }
 
 .col-4 > .card-body {
@@ -340,8 +350,51 @@ h3 {
     flex-wrap: wrap;
 }
 
-.col-6 {
+.partners img {
+    color: white;
+    width: 50%;
+    filter: invert(100%);
+}
+
+.partners .col-6 {
     flex-basis: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+}
+
+.designit {
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.arizona {
+    background-color: #61082B;
+}
+
+.florida {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1C1C;
+}
+
+.bicycle {
+    background-color: #D5001F;
+}
+
+.hearst {
+    background-color: #B4D0E7;
+}
+
+.lonely {
+    background-color: #0D2481;
+}
+
+.channel {
+    background-color: #FFD82F;
 }
 
 /* lightblue middle */
@@ -412,6 +465,20 @@ h4 {
 
 .page-footer li {
     margin-bottom: 15px;
+}
+
+.language {
+    color: white;
+    padding: 0 30px;
+    margin-top: 60px;
+}
+
+.language::before {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 1px;
+    background-color: white;
 }
 
 
