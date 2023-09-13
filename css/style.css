@@ -350,10 +350,43 @@ h3 {
     flex-wrap: wrap;
 }
 
-.partners img {
-    color: white;
+.partners img {    
     width: 50%;
     filter: invert(100%);
+}
+
+.partners .col-4 > img {
+    filter: invert(0%);
+}
+
+.central {
+    padding: 60px 50px ;
+}
+
+.central img {
+    display: block;
+}
+
+.central p {
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.central >img::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 30px;    
+}
+
+.central {
+    background-color: #F5F5F5;
+}
+
+.central * {
+    margin-bottom: 60px;
 }
 
 .partners .col-6 {
@@ -425,6 +458,7 @@ h3 {
     line-height: 2;
     padding: 10px 35px;
     max-height: 50px;
+    white-space: nowrap;
 }
 
 /* faq section */
@@ -441,11 +475,18 @@ h3 {
     padding: 30px 0;
 }
 
+.faq i {
+    padding-right: 25px;
+    font-size: 12px;
+    align-self: center;
+}
+
 /* footer */
 
 .page-footer {
     background-color: black;
     padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 .page-footer .row {
@@ -471,14 +512,16 @@ h4 {
     color: white;
     padding: 0 30px;
     margin-top: 60px;
+    
 }
 
 .language::before {
     content: '';
     display: block;
-    width: 48px;
+    width: 120px;
     height: 1px;
     background-color: white;
+    margin-bottom: 30px;
 }
 
 
