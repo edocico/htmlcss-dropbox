@@ -218,7 +218,7 @@ h2 {
     padding-bottom: 10px;
     display: flex;
     font-weight: 300;
-    gap: 8px;    
+    gap: 8px;   
 }
 
 .plan-cta::after {
@@ -227,6 +227,7 @@ h2 {
     width: 48px;
     height: 1px;
     background-color: #DADADC;
+    margin-top: 20px;
 }
 
 .col-4 > .card-body {
@@ -396,21 +397,18 @@ h3 {
     line-height: 1.5em;
 }
 
-.central >img::after {
-    content: '';
-    display: block;
-    width: 120px;
-    height: 1px;
-    background-color: black;
-    margin-bottom: 30px;    
-}
-
 .central {
     background-color: #F5F5F5;
 }
 
-.central * {
+/*.central * {
     margin-bottom: 60px;
+} */
+
+.central {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 
 .partners .col-6 {
@@ -423,7 +421,7 @@ h3 {
 
 .designit {
     background-color: #A2D39B;
-    border: 10px solid #D1E9CD;
+    border: 15px solid #D1E9CD;
 }
 
 .arizona {
@@ -459,12 +457,16 @@ h3 {
 .lightblue-middle {
     background-color: #B4D0E7;
     padding-top: 130px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .lightblue-middle .row {
     display: flex;
     justify-content: space-between;
+}
+
+.lightblue-middle .col-6 {
+    flex-basis: calc(100% / 2);
 }
 
 .lightblue-middle h2 {
@@ -480,9 +482,10 @@ h3 {
     color: black;
     background-color: white;
     line-height: 2;
-    padding: 10px 35px;
+    padding: 10px 45px;
     max-height: 50px;
     white-space: nowrap;
+    font-weight: 300;
 }
 
 /* faq section */
